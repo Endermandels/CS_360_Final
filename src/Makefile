@@ -17,13 +17,6 @@ $(CLIENT): ${COBJS}
 $(SERVER): ${SOBJS}
 	${FLAGS} -o ${SERVER} ${SOBJS}
 
-# myftp.o: myftp.c myftp.h
-# 	$(FLAGS) -c myftp.c myftp.h
-
-# myftpserve.o: myftpserve.c myftp.h
-# 	$(FLAGS) -c myftpserve.c myftp.h
-
-# rm *.o
 clean:
 	rm $(CLIENT)
 	rm $(SERVER)

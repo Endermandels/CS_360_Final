@@ -9,9 +9,6 @@ Compiling:
 
 Running:
     ./myftpserve [-d]
-
-Description:
-    Creates a server which listens for clients to perform FTP commands.
 */
 
 #include "myftp.h"

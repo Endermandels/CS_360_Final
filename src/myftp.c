@@ -9,19 +9,6 @@ Compiling:
 
 Running:
     ./myftp [-d] <hostname | IP address>
-
-Commands:
-    exit                client -> server
-    cd <pathname>       client
-    rcd <pathname>      client -> server
-    ls                  client
-    rls                 client -> server
-    get <pathname>      server -> client
-    show <pathname>     server -> client
-    put <pathname>      client -> server
-
-Description:
-    Creates a client which connects to a server to perform FTP commands.
 */
 
 #include "myftp.h"
